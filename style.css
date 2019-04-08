@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Bitter', serif;
+}
+body {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+header {
+	width: 100%;
+	height: 40%;
+}
+nav {
+	display: inline;
+}
+main {
+	width: 100%;
+	height: 100%;
+}
+.hr {
+	width: 40px;
+	height: 3px;
+	margin-left: 10px;
+	margin: 5px;
+	border: none;
+}
+.color {
+	background-color: rgba(255,255,13,1);
+}
+.color2 {
+	background-color: rgba(108,12,232,1);
+}
+.color3 {
+	background-color: rgba(255,0,0,1);
+}
+.imgbottom {
+	width: 30px;
+	display: inline-flex;
+}
+.imgbottom2 {
+	width: 30px;
+	margin-left: 1200px;
+	display: inline-flex;
+}
+.title1 {
+	text-align: center;
+	margin-top: 7%;
+	font-family: 'Bitter', serif;
+	font-weight: 500;
+}
+.container {
+	display: inline-flex;
+	width: 100%;
+	height: 80%;
+	padding: 0 10px;
+}
+.block{
+	display: inline-flex;
+	width: 100%;
+	height: 200px;
+	border-radius: 6px;
+	padding: 33px 50px;
+	margin: 30px;
+}
+.cor{
+	background: rgba(255,255,169,0.8);
+	margin-left: -5px;
+}
+.cor2 {
+	background: rgba(119,183,184,0.4);
+}
+.cor3 {
+	background: rgba(232,181,174,0.4);
+	margin-right: -5px;
+}
+.block_conteudo {
+	width: 70%;
+	padding: 0 2px;
+	margin-top: 30px;
+	display: inline-block;
+}
+.container_title {
+	font-size: 19px;
+	display: inline-block;
+}
+.p {
+	font-size: 15px;
+	display: inline-block;
+}
+.image {
+	width: 50%;
+	height: 21vh;
+	padding: -1px;
+	margin-left: 70px;
+	display: inline-flex;
+}
+@import url('https://fonts.googleapis.com/css?family=Bitter');
